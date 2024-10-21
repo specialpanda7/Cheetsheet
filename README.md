@@ -58,6 +58,12 @@ sudo nmap -Pn -n $IP -sC -sV -p- --open
 sudo nmap -Pn -n $IP -sU --top-ports=100 --reason
 ```
 
+# WEBsite scanning
+
+### Gobuster
+```
+gobuster dir -u <target> -w /usr/share/wordlists/dirb/common.txt
+```
 
 
 
