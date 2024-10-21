@@ -35,7 +35,7 @@ reddit
 
 ### Starting scan 
 ```
-nmap -sCV -T4 -p- <target_ip>
+nmap -sCV -T4 -O --osscan-guess -v -p- <target_ip>
 
 ```
 
