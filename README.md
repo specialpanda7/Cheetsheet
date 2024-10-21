@@ -46,7 +46,11 @@ sudo nmap -p<port> --script "vuln" 192.168.50.114
 ```
 
 
+### try this
 
+```
+sudo nmap -Pn -n $IP -sC -sV -p- --open
+```
 
 
 
