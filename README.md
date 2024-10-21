@@ -53,6 +53,11 @@ sudo nmap -Pn -n $IP -sC -sV -p- --open
 ```
 
 
+### run udp after tcp nmap to see if its open because its important if it is
+```
+sudo nmap -Pn -n $IP -sU --top-ports=100 --reason
+```
+
 
 
 
