@@ -4,14 +4,6 @@
 - https://www.ssllabs.com/ssltest/ = ssl vul teste and info on sites
 
   
-# nmap  
-
-
-```
-
-reddit
-
-```
 
 
 
@@ -53,7 +45,7 @@ sudo nmap -p<port> --script "vuln" 192.168.50.114
 ### try this
 
 ```
-sudo nmap -Pn -n $IP -sC -sV -p- --open
+sudo nmap -sV -p<port> --script "vuln" 192.168.50.124
 ```
 
 
