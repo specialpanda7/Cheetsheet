@@ -1,5 +1,9 @@
 # Cheetsheet
+## Websites
+- Shodan.io: Gives info on websites
+- https://www.ssllabs.com/ssltest/ = ssl vul teste and info on sites
 
+  
 # nmap  
 
 
