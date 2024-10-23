@@ -121,7 +121,8 @@ snmpwalk -c public -v1 <IP> 1.3.6.1.2.1.6.13.1.3           #Opened TCP Ports
 ```
 
 
-
+#SQL injections
+Put more info down below
 
 
 
