@@ -30,6 +30,10 @@ Can use inspect elements on a web page to find out what server its running on
 
 
 # Nmap 
+### How to find scripts on nmap
+```
+ls /usr/share/nmap/scripts | grep <target word, eg:http>
+```
 
 ### Starting scan 
 ```
