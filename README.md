@@ -131,7 +131,10 @@ Put more info down below
 
 
 
-
+#How to find hashcat types
+```
+hashcat -h | grep -i "ssh"
+```
 
 
 
