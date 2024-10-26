@@ -140,9 +140,17 @@ hashcat -h | grep -i "ssh"
 
 
 
+#Windows Enumeration
+```
+Get-LocalUser
+Get-LocalGroup
+```
 
 
-
+#Powershell
+```
+Get-History
+```
 
 
 
