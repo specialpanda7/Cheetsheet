@@ -125,13 +125,13 @@ snmpwalk -c public -v1 <IP> 1.3.6.1.2.1.6.13.1.3           #Opened TCP Ports
 ```
 
 
-#SQL injections
+# SQL injections
 Put more info down below
 
 
 
 
-#How to find hashcat types
+# How to find hashcat types
 ```
 hashcat -h | grep -i "ssh"
 ```
@@ -140,14 +140,14 @@ hashcat -h | grep -i "ssh"
 
 
 
-#Windows Enumeration
+# Windows Enumeration
 ```
 Get-LocalUser
 Get-LocalGroup
 ```
 
 
-#Powershell
+# Powershell
 ```
 Get-History
 ```
