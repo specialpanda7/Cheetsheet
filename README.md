@@ -12,7 +12,13 @@ Can use inspect elements on a web page to find out what server its running on
 
 
 
+# Using an expliot
+```
+python3 50944.py -url http://192.168.50.11/project/ -u george@AIDevCorp.org -p AIDevCorp
 
+python3 <exploit> -url <ip> -u <username if found> -p <password> (can be used if no user and pass)
+
+```
 
 
 
